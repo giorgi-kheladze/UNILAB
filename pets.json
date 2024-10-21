@@ -1,0 +1,50 @@
+[
+    {
+        "image": "products/image 1 (1).png",
+        "title": "MO231 - Pomeranian White",
+        "name": "Gene: Male . Age: 02 months",
+        "vnd": "6.900.900 VND" 
+    },
+    {
+        "image": "products/image 1 (2).png",
+        "title": "MO502 - Poondle Tiny Yellow",
+        "name": "Gene: Female . Age: 02 months",
+        "vnd": "3.900.900 VND" 
+    },
+    {
+        "image": "products/image 1 (3).png",
+        "title": "MO102 - Poodle Tiny Sepia",
+        "name": "Gene: Male . Age: 02 months",
+        "vnd": "4.000.900 VND" 
+    },
+    {
+        "image": "products/image 1 (4).png",
+        "title": "MO512 - Alaskan Malamute Grey",
+        "name": "Gene: Male . Age: 02 months",
+        "vnd": "8.900.900 VND" 
+    },
+    {
+        "image": "products/image 1 (5).png",
+        "title": "MO231 - Pembroke Corgi Cream",
+        "name": "Gene: Male . Age: 02 months",
+        "vnd": "7.900.900 VND" 
+    },
+    {
+        "image": "products/image 1 (6).png",
+        "title": "MO502 - Pembroke Corgi Tricolor",
+        "name": "Gene: Female . Age: 02 months",
+        "vnd": "9.000.900 VND" 
+    },
+    {
+        "image": "products/image 1 (7).png",
+        "title": "MO231 - Pomeranian White",
+        "name": "Gene: Female . Age: 02 months",
+        "vnd": "6.500.900 VND" 
+    },
+    {
+        "image": "products/image 1 (8).png",
+        "title": "MO512 - Poodle Tiny Dairy Cow",
+        "name": "Gene: Male . Age: 02 months",
+        "vnd": "6.900.900 VND" 
+    }
+]

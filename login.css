@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 320px;
+    margin: 200px auto;
+    margin-bottom: 120px;
+}
+.or{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+.line{
+   width: 136px;
+   height: 1px;
+   background-color: #E6E7E8; 
+}
+.or p{
+    font-size: 12px;
+    line-height: 24px;
+}
+form input{
+    width: 320px;
+    height: 45px;
+    border: 1px solid #E6E7E8;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    padding: 1em;
+}
+form input:hover{
+    border-color: #003459;
+
+}
+form p{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 175%;
+    color: #003459;
+}
+.wrapper-p{
+    max-width: 318px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #003459;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+.wrapper button{
+    width: 318px;
+    height: 44px;
+    background-color: #003459;
+    color: white;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+.login-p{
+    font-size: 14px;
+    color: 003459;
+    display: flex;
+    justify-content: center;
+}
+form div.incorrect input{
+    border-color: #f06171;
+}
+#error-message{
+    color: #f06171;
+}
+.recovery-p{
+    margin-bottom: 24px;
+}
+.forget-password{
+    text-align: right;
+    margin-bottom: 24px;
+}
+.confirm{
+    color: white;
+    text-decoration: none;
+}

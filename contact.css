@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+section{
+    width: 100%;
+    padding: 150px 150px;
+}
+.frame137{
+    display: flex;
+    justify-content: space-between;
+}
+.frame3851{
+    max-width: 545px;
+    margin-top: 48px;
+}
+.frame3851 h1{
+    font-size: 54px;
+    font-weight: 700;
+    color: #003459;
+    margin-bottom: 20px;
+}
+.frame3851 p{
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+form input{
+    width: 100%;
+    height: 50px;
+    padding: 13px 20px;
+    border: 1px solid #E0E0E0;
+    color: #828282;
+    margin-bottom: 20px;
+}
+form button{
+    width: 100%;
+    height: 50px;
+    background-color: #003459;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 60px;
+}
+.contact{
+    display: flex;
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+}
+.phone, .email, .fax{
+    display: flex;
+    justify-content: space-between;
+}
+.phone i, .fax i, .email i{
+    font-size: 30px;
+    margin-right: 15px;
+}
+.phone h1, .fax h1, .email h1{
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: -1px;
+}
+.phone p, .fax p, .email{
+    font-size: 13px;
+    color: #828282;
+}
+.email a, .fax a, .phone a{
+    color: #828282;
+}
+.select{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    padding: 13px 20px;
+    border: 1px solid #E0E0E0;
+    font-size: 14px;
+    font-weight: 100;
+}
+iframe{
+    width: 545px;
+    height: 700px;
+}

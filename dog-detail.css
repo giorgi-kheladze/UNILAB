@@ -1,0 +1,128 @@
+.dog-details-container{
+    margin: 130px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 22px;
+    box-shadow: 0 1px 1px 1px rgba(0,  0,  0, 0.1);
+    border-radius: 20px;
+}
+#dog-image{
+    width: 565px;
+    height: 475px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+.frame92{
+    width: 560px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    padding: 9px 12px;
+    border-radius: 10px;
+    background: linear-gradient(45deg, #FCEED5 6%, #FCEED5 75%, #FFE7BA 100%);
+    margin-top: 17px;
+}
+.frame92 div{
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+.frame92 img{
+    width: 24px;
+    height: 24px;
+}
+.frame92 p{
+    font-size: 14px;
+    font-weight: 500;
+    color: #002A48;
+}
+.social{
+    width: 240px;
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 10px;
+    margin-top: 17px;
+}
+.social i{
+    font-size: 20px;
+}
+.bxl-facebook-circle, .bxl-twitter, .bxl-instagram, .bxl-youtube{
+    color: #99A2A5;
+}
+.bx-share-alt{
+    text-decoration: none;
+    color: black;
+}
+.link{
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+.details{
+    width: 517px;
+    height: 780px;
+}
+.details div{
+    display: flex;
+    gap: 156px;
+    text-align: left;
+    padding: 12px 0;
+    border-bottom: 1px solid #99A2A5;
+}
+.details h1{
+    font-size: 24px;
+    margin-bottom: 6px;
+}
+.details h3{
+    font-size: 20px;
+    margin-bottom: 18px;
+}
+.details p{
+    font-weight: 500;
+    font-size: 14px;
+    color: #99A2A5;
+    line-height: 20px;
+    width: 194px;
+}
+.bold{
+    color: #667479;
+    font-weight: 650;
+}
+.details .chat{
+    gap: 18px;
+}
+.chat1{
+    border-radius: 57px;
+    padding: 10px 28px;
+    background-color: #002A48;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+.chat2{
+    padding: 10px 28px;
+    border: 2px solid #002A48;
+    border-radius: 57px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #002A48;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.frame117{
+    width: 1180px;
+    height: 470px;
+    margin: 0 auto;
+}
+.swiper-wrapper{
+    width: 100%;
+}
+.frame117 h1{
+    margin-bottom: 12px;
+}
+.swiper-pagination-button{
+    margin-top: 50px;
+}

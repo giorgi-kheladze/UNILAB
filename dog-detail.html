@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dog-detail.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+    <main-header></main-header>
+
+    <section class="dog-details-container">
+        <div class="detail-img">
+            <img id="dog-image" src="">
+            <div class="frame92">
+                <div>
+                    <img src="./detail/Frame1.png">
+                    <p>100% health guarantee for pets</p>
+                </div>
+                <div>
+                    <img src="./detail/Frame2.png">
+                    <p>100% guarantee of pet identificator</p>
+                </div>
+            </div>
+            <div class="social">
+                <a href="#" class="link"><i class='bx bx-share-alt' ></i> Share:</a>
+                <a href="#"><i class='bx bxl-facebook-circle' ></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></a>
+                <a href="#"><i class='bx bxl-instagram' ></i></a>
+                <a href="#"><i class='bx bxl-youtube' ></i></a>
+            </div>
+        </div>
+
+        <div class="details">
+            <p class="bold">Home > Dog </p>
+
+            <p id="dog-sku"></p>
+            <h1 id="dog-name"></h1>
+            <h3 id="dog-vnd"></h3>
+
+            <div class="chat">
+                <a href="contact.html" class="chat1">Contact us</a>
+                <a href="#" class="chat2"><i class='bx bx-comment-dots'></i>Chat with Monito</a>
+            </div>
+
+            <!--  -->
+            <div>
+                <p>SKU</p>
+                <p id="dog-sku-id" class="bold"></p>
+            </div>
+            <div>
+                <p>Gender</p>
+                <p id="dog-gender" class="bold"></p>
+            </div>
+            <div>
+                <p>Age</p>
+                <p id="dog-age" class="bold"></p>
+            </div>
+            <div>
+                <p>Size</p>
+                <p id="dog-size" class="bold"></p>
+            </div>
+            <div>
+                <p>Color</p>
+                <p id="dog-color" class="bold"></p>
+            </div>
+            <div>
+                <p>Vaccinated</p>
+                <p id="dog-vaccinated" class="bold"></p>
+            </div>
+            <div>
+                <p>Dewormed</p>
+                <p id="dog-dewormed" class="bold"></p>
+            </div>
+            <div>
+                <p>Cert</p>
+                <p id="dog-cert" class="bold"></p>
+            </div>
+            <div>
+                <p>Microchip</p>
+                <p id="dog-microchip" class="bold"></p>
+            </div>
+            <div>
+                <p>Location</p>
+                <p id="dog-location" class="bold"></p>
+            </div>
+            <div>
+                <p>Published Date</p>
+                <p id="dog-published" class="bold"></p>
+            </div>
+            <div>
+                <p>Additional Information</p>
+                <p id="dog-additionalinfo" class="bold"></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="frame117">
+        <h1>Our lovely customers</h1>
+
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="./detail/swiper1.png" class="swiper-img"></div>
+              <div class="swiper-slide"><img src="./detail/swiper2.png" class="swiper-img"></div>
+              <div class="swiper-slide"><img src="./detail/swiper3.png" class="swiper-img"></div>
+              <div class="swiper-slide"><img src="./detail/swiper4.png" class="swiper-img"></div>
+              <div class="swiper-slide"><img src="./detail/swiper2.png" class="swiper-img"></div>
+            </div>
+            
+          </div>                
+    </section>
+
+    <section>
+        <div class="puppies"></div>
+    </section>
+
+    <main-footer></main-footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="custom.js"></script>
+    <script>
+        const selectedDog = JSON.parse(localStorage.getItem('selectedDog'));
+
+        if (selectedDog) {
+            
+            document.getElementById('dog-image').src = selectedDog.image;
+            document.getElementById('dog-sku').textContent = selectedDog.sku;
+            document.getElementById('dog-name').textContent = selectedDog.name;
+            document.getElementById('dog-vnd').textContent = selectedDog.vnd;
+            document.getElementById('dog-sku-id').textContent = `:${selectedDog.vnd}`;
+            document.getElementById('dog-gender').textContent = `:${selectedDog.gender}`;
+            document.getElementById('dog-age').textContent = `:${selectedDog.age}`;
+            document.getElementById('dog-size').textContent = `:${selectedDog.breed}`;
+            document.getElementById('dog-color').textContent = `:${selectedDog.color}`;
+            document.getElementById('dog-vaccinated').textContent = `:${selectedDog.vaccinated}`;
+            document.getElementById('dog-dewormed').textContent = `:${selectedDog.dewormed}`;
+            document.getElementById('dog-cert').textContent = `:${selectedDog.cert}`;
+            document.getElementById('dog-microchip').textContent = `:${selectedDog.microchip}`;
+            document.getElementById('dog-location').textContent = `:${selectedDog.location}`;
+            document.getElementById('dog-published').textContent = `:${selectedDog.published}`;
+            document.getElementById('dog-additionalinfo').textContent = `:${selectedDog.additionalinfo}`;
+        }
+
+
+
+        new Swiper('.swiper', {
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: false, 
+        },
+
+        loop: true,
+        spaceBetween: 30,
+        slidesPerView: 4,
+
+    
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        }
+    
+    });
+
+
+
+    </script>
+</body>
+</html>
