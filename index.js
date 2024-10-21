@@ -73,7 +73,7 @@ http.onload = function(){
 new Swiper('.swiper', {
     loop: true,
     spaceBetween: 30,
-    slidesPerView: 3, // Display 3 slides at a time
+    slidesPerView: 3, 
 
   
     pagination: {
