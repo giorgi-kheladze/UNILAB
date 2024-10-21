@@ -46,7 +46,6 @@ http.onload = function() {
             document.getElementById('page' + page)?.classList.add('active');
         }
 
-        // Initialize the first page
         showPage(1);
 
         const paginationButtons = document.querySelectorAll('.pagination button');
