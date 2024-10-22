@@ -13,6 +13,11 @@ section{
     display: flex;
     justify-content: space-between;
 }
+@media (max-width : 1268px) {
+    .frame137 { 
+        flex-direction: column;
+align-items: center;    }
+}
 .frame3851{
     max-width: 545px;
     margin-top: 48px;
@@ -56,6 +61,7 @@ form button{
     display: flex;
     justify-content: space-between;
 }
+
 .phone, .email, .fax{
     display: flex;
     justify-content: space-between;
