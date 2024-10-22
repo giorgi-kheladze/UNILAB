@@ -2,7 +2,7 @@ body{
     position: relative;
 }
 .category-banner{
-    width: 1180px;
+    width: 100%;
     height: 378px;
     background-color: #FFE7BA;
     border-radius: 20px;
@@ -79,7 +79,12 @@ body{
     width: 100%;
     padding: 32px 130px;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+}
+
+
+.dogs-container { 
+    width: 100%;
 }
 .aside{
     width: 280px;
@@ -145,10 +150,23 @@ body{
     background-color: #EBEEEF;
     margin: 5px 0;
 }
-.dogs{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+.dogs {
+    display: flex;
+    flex-wrap: wrap;
     gap: 20px;
+    justify-content: space-between; 
+    margin: 0 auto; 
+    width: 100%; 
+}
+
+@media (max-width : 1036px) {
+.dogs {
+    justify-content: center;
+}
+.category-section { 
+    padding: 10px;
+}
+
 }
 .dog{
     width: 280px;
